@@ -12,7 +12,7 @@ cask "tegata" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Tegata CLI.app"
   # Launched through this link, the command keeps the signed bundle's keychain access group.
