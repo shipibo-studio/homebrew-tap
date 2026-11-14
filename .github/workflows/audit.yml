@@ -25,6 +25,9 @@ jobs:
           mkdir -p "$(brew --repository)/Library/Taps/shipibo-studio"
           ln -s "$GITHUB_WORKSPACE" "$(brew --repository)/Library/Taps/shipibo-studio/homebrew-tap"
 
+      - name: Trust this tap (Homebrew 7 refuses to load untrusted taps)
+        run: brew trust --tap shipibo-studio/tap
+
       - name: Style
         run: brew style shipibo-studio/tap
 

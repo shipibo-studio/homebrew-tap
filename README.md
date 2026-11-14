@@ -3,8 +3,11 @@
 Casks for [Shipibo Studio](https://github.com/shipibo-studio) apps.
 
 ```sh
+brew trust --cask shipibo-studio/tap/tegata
 brew install --cask shipibo-studio/tap/tegata
 ```
+
+Homebrew 7 loads casks from taps outside Homebrew's own only after you trust them. Trusting one cask (as above) is narrower than trusting the whole tap.
 
 | Cask | What it is |
 | --- | --- |
