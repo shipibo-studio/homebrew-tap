@@ -1,6 +1,6 @@
 cask "tegata" do
-  version "0.2.0"
-  sha256 "8f27e95dac14910ec96ca7e5564b9d6de26c933064a53ec06b8b2486f79a9fbd"
+  version "0.2.1"
+  sha256 "bccdd7dc66642e6c19d43d3bc198443c49423b1cabe552709acd9fb0af367090"
 
   url "https://github.com/shipibo-studio/Tegata/releases/download/v#{version}/tegata-cli-#{version}-macos.zip"
   name "Tegata"
